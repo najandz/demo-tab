@@ -27,7 +27,7 @@ class Tabs extends Component {
 		} = this;
 
 		return (
-			<div>
+			<div className="tabs-container">
 				<div className="tabs">
 					<ol className="tab-list">
 						{children.map((child) => {
